@@ -13,7 +13,7 @@ namespace OOP_lab3
             {
                 Console.WriteLine("1 - Перевертання чисел");
                 Console.WriteLine("2 - Видалення слів");
-                Console.WriteLine("3 - ");
+                Console.WriteLine("3 - Калькулятор площ");
                 Console.WriteLine("4 - ");
 
                 Console.WriteLine("");
@@ -36,7 +36,7 @@ namespace OOP_lab3
 
                     case "3":
                         Console.WriteLine("");
-                        //.Run();
+                        VolumeCalculator.Run();
                         break;
 
                     case "4":
