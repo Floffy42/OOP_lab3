@@ -6,15 +6,15 @@ namespace OOP_lab3
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.InputEncoding = Encoding.UTF8;
-
             while (true)
             {
+                Console.OutputEncoding = Encoding.UTF8;
+                Console.InputEncoding = Encoding.UTF8;
+
                 Console.WriteLine("1 - Перевертання чисел");
                 Console.WriteLine("2 - Видалення слів");
                 Console.WriteLine("3 - Калькулятор площ");
-                Console.WriteLine("4 - ");
+                Console.WriteLine("4 - Шифрування тексту");
 
                 Console.WriteLine("");
                 Console.Write("Вибір - ");
@@ -41,7 +41,7 @@ namespace OOP_lab3
 
                     case "4":
                         Console.WriteLine("");
-                        //.Run();
+                        EncryptText.Run();
                         break;
 
                     default:

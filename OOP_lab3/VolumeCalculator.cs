@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace OOP_lab3
+﻿namespace OOP_lab3
 {
     internal class VolumeCalculator
     {
