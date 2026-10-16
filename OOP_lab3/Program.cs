@@ -12,7 +12,7 @@ namespace OOP_lab3
             while (true)
             {
                 Console.WriteLine("1 - Перевертання чисел");
-                Console.WriteLine("2 - ");
+                Console.WriteLine("2 - Видалення слів");
                 Console.WriteLine("3 - ");
                 Console.WriteLine("4 - ");
 
@@ -31,7 +31,7 @@ namespace OOP_lab3
 
                     case "2":
                         Console.WriteLine("");
-                        //.Run();
+                        RemoveXPrases.Run();
                         break;
 
                     case "3":
